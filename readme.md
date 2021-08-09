@@ -4,4 +4,4 @@ mybatis generate bean
         @TableId(value="id", tyoe=IdType.AUTO)
         private Integer id;
 
-    否则，数据库新增数据不会id会随机很大
+    否则，数据库新增数据id不会自增长，会随机很大
